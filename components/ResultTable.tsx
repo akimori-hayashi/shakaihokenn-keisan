@@ -96,12 +96,12 @@ export default function ResultTable({
         </p>
         <p>
           <span className="font-semibold">健康保険料率（{result.healthInsuranceRate.toFixed(2)}%）：</span>
-          都道府県別協会けんぽ 2025年度
+          都道府県別協会けんぽ 2026年度
         </p>
         {requiresNursingCare && (
           <p>
             <span className="font-semibold">介護保険料率：</span>
-            1.60%（40歳以上適用）
+            1.62%（40歳以上適用）
           </p>
         )}
         {hasPension && (
@@ -177,7 +177,7 @@ export default function ResultTable({
               )}
               <TableRow
                 label="雇用保険料"
-                sublabel="労働者 0.6% / 事業主 0.95%"
+                sublabel="労働者 0.55% / 事業主 0.90%"
                 employee={employmentInsuranceEmployee}
                 employer={employmentInsuranceEmployer}
                 total={employmentInsuranceTotal}

@@ -171,12 +171,12 @@ function CalculatorApp() {
                 社会保険料計算ツール
               </h1>
               <p className="text-sm text-gray-500 mt-0.5">
-                2025年度（令和7年度）協会けんぽ料率対応
+                2026年度（令和8年度）協会けんぽ料率対応
               </p>
             </div>
             <div className="flex items-center gap-2 text-xs text-gray-400">
               <span className="bg-blue-100 text-blue-600 px-2 py-1 rounded-full font-medium">
-                2025年度対応
+                2026年度対応
               </span>
             </div>
           </div>
@@ -197,7 +197,7 @@ function CalculatorApp() {
               <p className="font-semibold">ご注意</p>
               <ul className="list-disc list-inside space-y-0.5">
                 <li>本ツールは概算計算です。実際の保険料と異なる場合があります。</li>
-                <li>2025年度（令和7年度）の協会けんぽ料率を使用しています。</li>
+                <li>2026年度（令和8年度）の協会けんぽ料率を使用しています。</li>
                 <li>所得税・住民税は含まれていません。</li>
                 <li>会社独自の健保組合の場合は料率が異なります。</li>
               </ul>
@@ -247,7 +247,7 @@ function CalculatorApp() {
       {/* フッター */}
       <footer className="mt-12 py-6 border-t border-gray-200 bg-white">
         <div className="max-w-5xl mx-auto px-4 text-center text-xs text-gray-400 space-y-1">
-          <p>社会保険料計算ツール — 2025年度（令和7年度）対応</p>
+          <p>社会保険料計算ツール — 2026年度（令和8年度）対応</p>
           <p>本ツールの計算結果は参考値です。正確な保険料は所轄の年金事務所・健康保険組合にご確認ください。</p>
         </div>
       </footer>
